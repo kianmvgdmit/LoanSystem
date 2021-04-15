@@ -1,0 +1,13 @@
+C:\Users\Xanthe\source\repos\LoanSystem\LoanSystem\bin\Debug\netcoreapp3.1\LoanSystem.exe
+C:\Users\Xanthe\source\repos\LoanSystem\LoanSystem\bin\Debug\netcoreapp3.1\LoanSystem.deps.json
+C:\Users\Xanthe\source\repos\LoanSystem\LoanSystem\bin\Debug\netcoreapp3.1\LoanSystem.runtimeconfig.json
+C:\Users\Xanthe\source\repos\LoanSystem\LoanSystem\bin\Debug\netcoreapp3.1\LoanSystem.runtimeconfig.dev.json
+C:\Users\Xanthe\source\repos\LoanSystem\LoanSystem\bin\Debug\netcoreapp3.1\LoanSystem.dll
+C:\Users\Xanthe\source\repos\LoanSystem\LoanSystem\bin\Debug\netcoreapp3.1\LoanSystem.pdb
+C:\Users\Xanthe\source\repos\LoanSystem\LoanSystem\obj\Debug\netcoreapp3.1\LoanSystem.csprojAssemblyReference.cache
+C:\Users\Xanthe\source\repos\LoanSystem\LoanSystem\obj\Debug\netcoreapp3.1\LoanSystem.AssemblyInfoInputs.cache
+C:\Users\Xanthe\source\repos\LoanSystem\LoanSystem\obj\Debug\netcoreapp3.1\LoanSystem.AssemblyInfo.cs
+C:\Users\Xanthe\source\repos\LoanSystem\LoanSystem\obj\Debug\netcoreapp3.1\LoanSystem.csproj.CoreCompileInputs.cache
+C:\Users\Xanthe\source\repos\LoanSystem\LoanSystem\obj\Debug\netcoreapp3.1\LoanSystem.dll
+C:\Users\Xanthe\source\repos\LoanSystem\LoanSystem\obj\Debug\netcoreapp3.1\LoanSystem.pdb
+C:\Users\Xanthe\source\repos\LoanSystem\LoanSystem\obj\Debug\netcoreapp3.1\LoanSystem.genruntimeconfig.cache

@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Xanthe\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Xanthe\\.nuget\\packages"
+    ]
+  }
+}
