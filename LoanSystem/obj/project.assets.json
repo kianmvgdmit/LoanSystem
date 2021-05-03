@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Xanthe\\.nuget\\packages\\": {}
+    "C:\\Users\\KIAN\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Xanthe\\source\\repos\\LoanSystem\\LoanSystem\\LoanSystem.csproj",
+      "projectUniqueName": "C:\\Users\\KIAN\\Source\\Repos\\LoanSystem\\LoanSystem\\LoanSystem.csproj",
       "projectName": "LoanSystem",
-      "projectPath": "C:\\Users\\Xanthe\\source\\repos\\LoanSystem\\LoanSystem\\LoanSystem.csproj",
-      "packagesPath": "C:\\Users\\Xanthe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Xanthe\\source\\repos\\LoanSystem\\LoanSystem\\obj\\",
+      "projectPath": "C:\\Users\\KIAN\\Source\\Repos\\LoanSystem\\LoanSystem\\LoanSystem.csproj",
+      "packagesPath": "C:\\Users\\KIAN\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\KIAN\\Source\\Repos\\LoanSystem\\LoanSystem\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Xanthe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\KIAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
