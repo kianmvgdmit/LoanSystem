@@ -1,12 +1,17 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace LoanSystem
 {
     class Program
     {
+        public static List<string> products = new List<string> { "IPHONE === ₱45,000","SMARTWATCH === ₱15,000","GOPRO === ₱20,000",
+                                                                 "TOYOTA WIGO === ₱650,000  ","HONDA CIVIC === ₱700,000","FORD FIESTA === ₱500,000"
+                                                                   ,"SMART TV === ₱20,000","AIRCON === ₱10,000","DINING TABLE === ₱5,000"};
+
+
         static void Main(string[] args)
         {
-            
 
             Console.Title = "LoanSystem";
             Console.WriteLine("-------------------------------");
@@ -17,7 +22,7 @@ namespace LoanSystem
             Console.WriteLine("***************");
             Console.WriteLine("[1]Gadget Loan");
             Console.WriteLine("[2]Car Loan");
-            Console.WriteLine("[3]Housing Loan");
+            Console.WriteLine("[3]Appliances Loan");
             Console.WriteLine("***************");
 
             string input = Console.ReadLine();
@@ -32,18 +37,29 @@ namespace LoanSystem
             }
             else if (input == "3")
             {
-                housingloan();
+                appliancesloan();
             }
 
 
         }
-        public static void gadgetloan()
+        static void gadgetloan()
         {
+
+
             Console.Clear();
             Console.WriteLine("You choose gadget loan");
-            Console.WriteLine("To Calculate your interest for your loan press ENTER:") ;
+            Console.WriteLine();
+
+            Console.WriteLine("Available Gadgets:");
+            Console.WriteLine("**********************");
+            Console.WriteLine(products[0]);
+            Console.WriteLine(products[1]);
+            Console.WriteLine(products[2]);
+            Console.WriteLine("**********************");
+            Console.WriteLine();
+            Console.WriteLine("To Calculate your interest for your loan press ENTER");
             Console.ReadLine();
-            
+
             Console.Write("Enter the total amount:");
             double amount = double.Parse(Console.ReadLine());
 
@@ -67,11 +83,19 @@ namespace LoanSystem
         }
         public static void carloan()
         {
+
             Console.Clear();
             Console.WriteLine("You choose car loan");
+            Console.WriteLine();
+            Console.WriteLine("Available Vehicles:");
+            Console.WriteLine("**********************");
+            Console.WriteLine(products[3]);
+            Console.WriteLine(products[4]);
+            Console.WriteLine(products[5]);
+            Console.WriteLine("**********************");
             Console.WriteLine("To Calculate your interest for your loan press ENTER:");
             Console.ReadLine();
-            
+
             Console.Write("Enter the total amount:");
             double amount = double.Parse(Console.ReadLine());
 
@@ -93,10 +117,19 @@ namespace LoanSystem
             Console.Read();
 
         }
-        public static void housingloan()
+        public static void appliancesloan()
+
         {
+
+
             Console.Clear();
-            Console.WriteLine("You choose housing loan");
+            Console.WriteLine("You choose appliances loan");
+            Console.WriteLine("Available Appliances:");
+            Console.WriteLine("**********************");
+            Console.WriteLine(products[6]);
+            Console.WriteLine(products[7]);
+            Console.WriteLine(products[8]);
+            Console.WriteLine("**********************");
             Console.WriteLine("To Calculate your interest for your loan press ENTER:");
             Console.ReadLine();
 
@@ -119,6 +152,9 @@ namespace LoanSystem
             Console.WriteLine("-------------------------------");
 
             Console.Read();
+
+
+
 
 
         }
